@@ -36,7 +36,7 @@ class Brand(models.Model):
         return self.name
 STOCK = (('in_stock','In stock'),('out of stock','out of stock'))
 LABELS = (('','default'),('new','new'),('sale','sale'),('hot','hot'))
-class shop(models.Model):
+class Shop(models.Model):
     name = models.CharField(max_length=500)
     price = models.IntegerField()
     discounted_price = models.IntegerField(default=0)
