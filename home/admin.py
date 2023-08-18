@@ -1,9 +1,9 @@
 from django.contrib import admin
 from .models import *
 # Register your models here.
-admin.site.egister(Category)
-admin.site.egister(Slider)
-admin.site.egister(Brand)
-admin.site.egister(Shop)
-admin.site.egister(Ad)
+admin.site.register(Category)
+admin.site.register(Slider)
+admin.site.register(Brand)
+admin.site.register(Shop)
+admin.site.register(Ad)
 
